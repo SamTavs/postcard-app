@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        // Keep the IBActions func clear
     }
 
     
@@ -36,7 +37,6 @@ class ViewController: UIViewController {
         
             sendButton.setTitle("Sent" , forState: UIControlState.Normal)
         
-            
     
     }
     
